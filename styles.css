@@ -29,11 +29,13 @@ nav {
 	margin: 0px 150px;
 }
 
-.nav-left {
+.nav-left a {
 	display: flex;
 	align-items: center;
 	gap: 10px;
 	font-size: 1.7rem;
+	text-decoration: none;
+	color: white;
 }
 
 .nav-left > img {
@@ -170,7 +172,7 @@ section {
 .card-grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	gap: 15px;
+	gap: 25px;
 }
 
 .card-grid li {
@@ -196,6 +198,7 @@ p {
 	border: 1px grey;
 	border-radius: 15px;
 	box-shadow: 2px 2px darkgray;
+	transition: transform 1s;
 }
 
 .link-card a {
